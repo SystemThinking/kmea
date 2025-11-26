@@ -18,7 +18,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-sk-knifes-knifes-overview-knife-overview-details-md-2e7.json
-const site_docs_sk_knifes_knifes_overview_knife_overview_details_md_2e7_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"sk/knifes/knifes_overview/KNIFE_OVERVIEW_DETAILS","title":"📊 KNIFE Overview – Details","description":"{{DESCRIPTION}}","source":"@site/docs/sk/knifes/knifes_overview/KNIFE_Overview_Details.md","sourceDirName":"sk/knifes/knifes_overview","slug":"/sk/knifes/knifes_overview/KNIFE_OVERVIEW_DETAILS","permalink":"/sk/knifes/knifes_overview/KNIFE_OVERVIEW_DETAILS","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"fm_version":"1.0.1","fm_build":"{{FM_BUILD}}","fm_version_comment":"","id":"KNIFE_OVERVIEW_DETAILS","guid":"35289c28-31e4-4a90-bf5c-ab343c51126d","dao":"{{DAO}}","title":"📊 KNIFE Overview – Details","description":"{{DESCRIPTION}}","author":"Roman Kazička","authors":["Roman Kazička"],"category":"","type":"","priority":"","tags":[],"locale":"sk","created":"2025-11-26","modified":"","status":"backlog","privacy":"public","rights_holder_content":"Roman Kazička","rights_holder_system":"CAA / KNIFE / LetItGrow","license":"CC-BY-NC-SA-4.0","disclaimer":"Use at your own risk. Methods provided as-is; participation is voluntary and context-aware.","copyright":"© 2025 Roman Kazička","origin_repo":"","origin_repo_url":"","origin_commit":"","origin_branch":"","origin_system":"CAA","origin_author":"Roman Kazička","origin_imported_from":"","origin_import_date":"","fm_reserved1":"","fm_reserved2":""},"sidebar":"tutorialSidebar","previous":{"title":"📰 KNIFE Overview – Blog","permalink":"/sk/knifes/knifes_overview/KNIFE_OVERVIEW_BLOG"},"next":{"title":"🗂 KNIFE Overview – List","permalink":"/sk/knifes/knifes_overview/KNIFE_OVERVIEW_LIST"}}');
+const site_docs_sk_knifes_knifes_overview_knife_overview_details_md_2e7_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"sk/knifes/knifes_overview/KNIFE_OVERVIEW_DETAILS","title":"📊 KNIFE Overview – Details","description":"{{DESCRIPTION}}","source":"@site/docs/sk/knifes/knifes_overview/KNIFE_Overview_Details.md","sourceDirName":"sk/knifes/knifes_overview","slug":"/sk/knifes/knifes_overview/KNIFE_OVERVIEW_DETAILS","permalink":"/sk/knifes/knifes_overview/KNIFE_OVERVIEW_DETAILS","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"fm_version":"1.0.1","fm_build":"{{FM_BUILD}}","fm_version_comment":"","id":"KNIFE_OVERVIEW_DETAILS","guid":"1b78cd18-814f-414f-8359-c13de79946ae","dao":"{{DAO}}","title":"📊 KNIFE Overview – Details","description":"{{DESCRIPTION}}","author":"Roman Kazička","authors":["Roman Kazička"],"category":"","type":"","priority":"","tags":[],"locale":"sk","created":"2025-11-26","modified":"","status":"backlog","privacy":"public","rights_holder_content":"Roman Kazička","rights_holder_system":"CAA / KNIFE / LetItGrow","license":"CC-BY-NC-SA-4.0","disclaimer":"Use at your own risk. Methods provided as-is; participation is voluntary and context-aware.","copyright":"© 2025 Roman Kazička","origin_repo":"","origin_repo_url":"","origin_commit":"","origin_branch":"","origin_system":"CAA","origin_author":"Roman Kazička","origin_imported_from":"","origin_import_date":"","fm_reserved1":"","fm_reserved2":""},"sidebar":"tutorialSidebar","previous":{"title":"📰 KNIFE Overview – Blog","permalink":"/sk/knifes/knifes_overview/KNIFE_OVERVIEW_BLOG"},"next":{"title":"🗂 KNIFE Overview – List","permalink":"/sk/knifes/knifes_overview/KNIFE_OVERVIEW_LIST"}}');
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(74848);
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
@@ -31,7 +31,7 @@ const frontMatter = {
 	fm_build: '{{FM_BUILD}}',
 	fm_version_comment: '',
 	id: 'KNIFE_OVERVIEW_DETAILS',
-	guid: '35289c28-31e4-4a90-bf5c-ab343c51126d',
+	guid: '1b78cd18-814f-414f-8359-c13de79946ae',
 	dao: '{{DAO}}',
 	title: '📊 KNIFE Overview – Details',
 	description: '{{DESCRIPTION}}',
@@ -102,7 +102,7 @@ function _createMdxContent(props) {
         children: [(0,jsx_runtime.jsx)(_components.strong, {
           children: "GUID:"
         }), " ", (0,jsx_runtime.jsx)(_components.code, {
-          children: "35289c28-31e4-4a90-bf5c-ab343c51126d"
+          children: "1b78cd18-814f-414f-8359-c13de79946ae"
         }), "\n", (0,jsx_runtime.jsx)(_components.strong, {
           children: "Status:"
         }), " ", (0,jsx_runtime.jsx)(_components.code, {
