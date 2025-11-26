@@ -15,7 +15,7 @@ fm_version_comment: ""
 id: "KNIFE_OVERVIEW_BLOG"
 
 # Unikátne UUID – generuje skript
-guid: "011e4935-c859-4124-becf-d467179f117a"
+guid: "d3e9fe24-80de-4886-a81b-5387ce1e81a1"
 
 
 # 🧭 CONTEXT ---------------------------------------------------------
@@ -135,7 +135,7 @@ fm_reserved2: ""
 # 📰 KNIFE Overview – Blog
 
 <!-- fm-visible: start -->
-> **GUID:** `011e4935-c859-4124-becf-d467179f117a`
+> **GUID:** `d3e9fe24-80de-4886-a81b-5387ce1e81a1`
 > **Status:** `backlog` · **Author:** Roman Kazička · **License:** CC-BY-NC-SA-4.0
 <!-- fm-visible: end -->
 
@@ -233,5 +233,5 @@ fm_reserved2: ""
 - **K000091** — 2025-11-11 — <a href="../K000091-Zrodenie-git-sveta/index.md">K000091 – Krátka história Git – Linus Torvalds</a>
 - **K000092** — 2025-11-17 23:03 — <a href="../K000092-KNIFE-User-Guide/index.md">K000092 – KNIFE User Guide v2</a>
 - **K000100** — 2025-11-20 10:44 — <a href="../K000100-Ako-komunikova-s-porozumen-mE/index.md">K000100 – titul-Ako komunikovať s porozumením</a>
-- **K000101** — 2025-11-26 21:48 — <a href="../K000101 – CKO-Onboarding/index.md">K000101 – CKO-Onboarding </a>
+- **K000101** — 2025-11-26 21:48 — <a href="../K000101–CKO-Onboarding/index.md">K000101 – CKO-Onboarding </a>
 - **REF-UAT-001** — 2025-10-05 — <a href="../K000026-knife-framework-pre-vyvoj-a-ucenie-sa-libreoffice-python/index.md">REF-UAT-001 – Postup pre presun zmien z vetvy FIX do UAT</a>

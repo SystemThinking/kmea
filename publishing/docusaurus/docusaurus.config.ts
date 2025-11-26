@@ -6,8 +6,8 @@ const {
   COMMIT_SHA = 'local',
   BUILD_DATE = '',
   GITHUB_REPO_URL = '',
-  SITE_URL = 'https://systemyhinking.github.io',
-  BASE_URL = '/kmea/',
+  SITE_URL = 'https://kmea.systemhinking.sk',
+  BASE_URL = '/',
 } = process.env;
 
 const commitLink =
