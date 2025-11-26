@@ -15,7 +15,7 @@ fm_version_comment: ""
 id: "KNIFE_OVERVIEW_DETAILS"
 
 # Unikátne UUID – generuje skript
-guid: "a1c8700b-5fa6-4bb3-82a3-a08871adff72"
+guid: "685990b2-f679-454b-8fbe-a1b0b09917be"
 
 
 # 🧭 CONTEXT ---------------------------------------------------------
@@ -135,7 +135,7 @@ fm_reserved2: ""
 # 📊 KNIFE Overview – Details
 
 <!-- fm-visible: start -->
-> **GUID:** `a1c8700b-5fa6-4bb3-82a3-a08871adff72`
+> **GUID:** `685990b2-f679-454b-8fbe-a1b0b09917be`
 > **Status:** `backlog` · **Author:** Roman Kazička · **License:** CC-BY-NC-SA-4.0
 <!-- fm-visible: end -->
 
@@ -148,6 +148,7 @@ fm_reserved2: ""
 | K1000999 | [K1000999 – KNIFE – Test script-created instance](../K1000999/index.md) | 2025-11-23 16:35 | backlog |  |
 | K000999 | [K000999 – KNIFE – Test script-created instance](../K000999/index.md) | 2025-11-22 22:22 | backlog |  |
 | K000100 | [K000100 – titul-Ako komunikovať s porozumením](../K000100-Ako-komunikova-s-porozumen-mE/index.md) | 2025-11-20 10:44 | backlog |  |
+| K000093 | [K000093 – Knowledge Management in IT](../K000093-knowledge-management-in-it/index.md) | 2025-11-26 | draft | medium |
 | K000092 | [K000092 – KNIFE User Guide v2](../K000092-KNIFE-User-Guide/index.md) | 2025-11-17 23:03 | backlog |  |
 | K000091 | [K000091 – Krátka história Git – Linus Torvalds](../K000091-Zrodenie-git-sveta/index.md) | 2025-11-11 | backlog |  |
 | K000090 | [K000090 – VMWare Fusion NAT2DHCP Resurrection -mac OS Srquoia and M2 Max](../K000090-VMWARE-Fusion-NAT2DHCP/index.md) | 2025-11-11 | backlog |  |

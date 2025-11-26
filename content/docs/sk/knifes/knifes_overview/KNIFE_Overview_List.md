@@ -15,7 +15,7 @@ fm_version_comment: ""
 id: "KNIFE_OVERVIEW_LIST"
 
 # Unikátne UUID – generuje skript
-guid: "c31509e9-55fd-43ab-a107-a0c0104ff6ed"
+guid: "f80a963f-3eed-4c65-afe6-ec41948159c6"
 
 
 # 🧭 CONTEXT ---------------------------------------------------------
@@ -135,7 +135,7 @@ fm_reserved2: ""
 # 🗂 KNIFE Overview – List
 
 <!-- fm-visible: start -->
-> **GUID:** `c31509e9-55fd-43ab-a107-a0c0104ff6ed`
+> **GUID:** `f80a963f-3eed-4c65-afe6-ec41948159c6`
 > **Status:** `backlog` · **Author:** Roman Kazička · **License:** CC-BY-NC-SA-4.0
 <!-- fm-visible: end -->
 
@@ -146,6 +146,7 @@ fm_reserved2: ""
 - **K1000999** · [K1000999 – KNIFE – Test script-created instance](../K1000999/index.md) · _backlog_ · -
 - **K000999** · [K000999 – KNIFE – Test script-created instance](../K000999/index.md) · _backlog_ · -
 - **K000100** · [K000100 – titul-Ako komunikovať s porozumením](../K000100-Ako-komunikova-s-porozumen-mE/index.md) · _backlog_ · -
+- **K000093** · [K000093 – Knowledge Management in IT](../K000093-knowledge-management-in-it/index.md) · _draft_ · medium
 - **K000092** · [K000092 – KNIFE User Guide v2](../K000092-KNIFE-User-Guide/index.md) · _backlog_ · -
 - **K000091** · [K000091 – Krátka história Git – Linus Torvalds](../K000091-Zrodenie-git-sveta/index.md) · _backlog_ · -
 - **K000090** · [K000090 – VMWare Fusion NAT2DHCP Resurrection -mac OS Srquoia and M2 Max](../K000090-VMWARE-Fusion-NAT2DHCP/index.md) · _backlog_ · -
