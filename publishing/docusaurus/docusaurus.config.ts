@@ -6,7 +6,7 @@ const {
   COMMIT_SHA = 'local',
   BUILD_DATE = '',
   GITHUB_REPO_URL = '',
-  SITE_URL = 'https://kmea.systemhinking.sk',
+  SITE_URL = 'https://kmea.systemthinking.sk',
   BASE_URL = '/',
 } = process.env;
 
