@@ -3,7 +3,7 @@
 fm_version: "1.0.1"
 
 # Dátum buildu – generuje skript
-fm_build: "2025-11-22T21:22:19.403409+00:00"
+fm_build: "2025-11-26T20:48:34.141709+00:00"
 
 # Poznámka k verzii – voliteľné
 fm_version_comment: ""
@@ -12,10 +12,10 @@ fm_version_comment: ""
 # 🆔 IDENTITY --------------------------------------------------------
 
 # ID generuje CLI / skript
-id: "K000999"
+id: "K000101"
 
 # Unikátne UUID – generuje skript
-guid: "67a8a4cb-6ddf-4e30-9abb-4780361067dc"
+guid: "02966c45-2145-4907-8ef6-2f149bb9d022"
 
 
 # 🧭 CONTEXT ---------------------------------------------------------
@@ -24,7 +24,7 @@ guid: "67a8a4cb-6ddf-4e30-9abb-4780361067dc"
 dao: "knife"
 
 # Názov zápisu – dopĺňa používateľ
-title: "K000999 – KNIFE – Test script-created instance"
+title: "K000101 – CKO-Onboarding "
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
 description: "{{DESCRIPTION}}"
@@ -69,10 +69,10 @@ locale: "sk"
 # 🕒 LIFECYCLE --------------------------------------------------------
 
 # Dátum vytvorenia – generuje skript
-created: "2025-11-22 22:22"
+created: "2025-11-26 21:48"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: ""
+modified: "2025-11-26 21:48"
 
 # Stav dokumentu – default "backlog"
 status: "backlog"
@@ -131,15 +131,36 @@ origin_import_date: ""
 fm_reserved1: ""
 fm_reserved2: ""
 ---
-
-# Názov KNIFE (zmeň ma)
+<!-- nav:knifes -->
+> [⬅ KNIFES – Prehľad](../knifes_overview/KNIFE_Overview_Blog.md) • [Zoznam](../knifes_overview/KNIFE_Overview_List.md) • [Detaily](../knifes_overview/KNIFE_Overview_Details.md)
+---
+# CKO - Chief Knowledge Officer  - Overview 
 
 ## 🎯 Čo rieši (účel, cieľ)
+<iframe
+  src="/assets/topics/002-CKO-01-Onboarding/HTML5/index.html"
+  width="100%"
+  height="800"
+  loading="lazy"
+  title="ActivePresenter – CKO - Onboarding"
+/>
 
 ## 🧩 Ako to rieši (princíp)
-
+<iframe
+  src="/assets/topics/004-CKO-02-Role/HTML5/index.html"
+  width="100%"
+  height="800"
+  loading="lazy"
+  title="ActivePresenter – CKO - Role"
+/>
 ## 🧪 Ako to použiť (aplikácia)
-
+<iframe
+  src="/assets/topics/003-CKO-03-Impact/HTML5/index.html"
+  width="100%"
+  height="800"
+  loading="lazy"
+  title="ActivePresenter – CKO - Impact"
+/>
 ---
 
 ## ⚡ Rýchly návod (Top)
@@ -150,7 +171,15 @@ fm_reserved2: ""
 
 ## ✅ Hodnota / Zhrnutie
 
-<!-- body:start -->
+
+
+<iframe
+  src="/assets/topics/001-GH-StudentsOnboarding/HTML5/index.html"
+  width="100%"
+  height="800"
+  loading="lazy"
+  title="ActivePresenter – HTML5 návod"
+/>
 
 <!-- nav:knifes -->
 > [⬅ KNIFES – Prehľad](../knifes_overview/KNIFE_Overview_Blog.md) • [Zoznam](../knifes_overview/KNIFE_Overview_List.md) • [Detaily](../knifes_overview/KNIFE_Overview_Details.md)

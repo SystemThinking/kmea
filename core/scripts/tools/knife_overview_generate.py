@@ -26,6 +26,7 @@ import os
 import re
 import sys
 import uuid
+import html
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Optional
@@ -229,8 +230,10 @@ def render_blog(items: List[Dict[str, object]], *, docs_root: str, overview_out_
         cid = it['id']
         title = it['title'] or cid
         created = it['created'] or ''
-        path = rel_link_from_overview(it['path'], docs_root, overview_out_dir)
-        lines.append(f"- **{cid}** — {created} — [{title}]({path})")
+        href = rel_link_from_overview(it['path'], docs_root, overview_out_dir)
+        title_html = html.escape(title)
+        href_html = html.escape(href, quote=True)
+        lines.append(f"- **{cid}** — {created} — <a href=\"{href_html}\">{title_html}</a>")
     return "\n".join(lines) + ("\n" if lines else "")
 
 
@@ -238,11 +241,13 @@ def render_list(items: List[Dict[str, object]], *, docs_root: str, overview_out_
     lines = []
     for it in items:
         title = it['title'] or it['id']
-        path = rel_link_from_overview(it['path'], docs_root, overview_out_dir)
+        href = rel_link_from_overview(it['path'], docs_root, overview_out_dir)
         status = it['status'] or ''
         prio = it['priority'] or ''
         cid = it['id']
-        lines.append(f"- **{cid}** · [{title}]({path}) · _{status or '-'}_ · {prio or '-'}")
+        title_html = html.escape(title)
+        href_html = html.escape(href, quote=True)
+        lines.append(f"- **{cid}** · <a href=\"{href_html}\">{title_html}</a> · _{status or '-'}_ · {prio or '-'}")
     return "\n".join(lines) + ("\n" if lines else "")
 
 
@@ -252,11 +257,13 @@ def render_details(items: List[Dict[str, object]], *, docs_root: str, overview_o
     for it in items:
         cid = it['id']
         title = it['title'] or cid
-        path = rel_link_from_overview(it['path'], docs_root, overview_out_dir)
+        href = rel_link_from_overview(it['path'], docs_root, overview_out_dir)
         created = it['created'] or ''
         status = it['status'] or ''
         prio = it['priority'] or ''
-        rows.append(f"| {cid} | [{title}]({path}) | {created} | {status} | {prio} |")
+        title_html = html.escape(title)
+        href_html = html.escape(href, quote=True)
+        rows.append(f"| {cid} | <a href=\"{href_html}\">{title_html}</a> | {created} | {status} | {prio} |")
     return header + "\n".join(rows) + ("\n" if rows else "")
 
 # ---------- FM scaffolding for overview pages ----------

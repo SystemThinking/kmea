@@ -6,8 +6,8 @@ const {
   COMMIT_SHA = 'local',
   BUILD_DATE = '',
   GITHUB_REPO_URL = '',
-  SITE_URL = 'https://knife-framework.github.io',
-  BASE_URL = '/knifes_overview/',
+  SITE_URL = 'https://systemyhinking.github.io',
+  BASE_URL = '/kmea/',
 } = process.env;
 
 const commitLink =
