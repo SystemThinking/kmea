@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en-US" dir="ltr">
 <head>
-	<title>The Role of Chief Knowledge Officers (CKOs</title>
+	<title>The Role of Chief Knowledge Officers (CKOs)</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="generator" content="ActivePresenter 10.0.0"/>
@@ -13,25 +13,34 @@
 
 	<style>
 		body {
-			background-color: #ffffff;
-			color: #4d4d4d;
+			/* Pozadie – obrázok cesty cez celý viewport */
+			background: url('img/journey.png') no-repeat center center fixed;
+			background-size: cover;
+			/* Fallback farba, ak by sa obrázok nenačítal */
+			background-color: #3e08ee;
+
+			color: #f3eb08;
 			font-family: "Verdana";
 			margin: 0px;
 			padding: 0px;
 			display: flex;
 			flex-direction: row;
 			min-height: 100vh;
+			position: relative;
 		}
 		.ap-mode-buttons-container {
-			background-color: #29abe2;
-			min-height: 100%;
-			flex: 2;
+			/* Polopriesvitný panel cez celú výšku – pozadie obrázka je vidieť pod ním */
+			background: transparent;
+			position: absolute;
+			left: 20px;
+			bottom: 20px;
 			display: flex;
-			justify-content: center;
-			align-items: center;
+			justify-content: flex-start;
+			align-items: flex-end;
+			z-index: 2;
 		}
 		.ap-mode-buttons {
-			background-color: #29abe2;
+			background-color: transparent;
 			display: flex;
 			flex-direction: column;
 			align-items: flex-start;
@@ -48,14 +57,32 @@
 			align-items: center;
 		}
 		.ap-project-information-container {
+			position: absolute;
+			inset: 0;
 			min-height: 100%;
-			flex: 3;
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			pointer-events: none;
 		}
 		.ap-project-information {
 			font-size: 14px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			height: 80vh;
+			align-items: center;
+			text-align: center;
+			pointer-events: auto;
+		}
+		.ap-top-block {
+			margin-top: 40px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.ap-bottom-block {
+			margin-bottom: 40px;
 		}
 
 		.ap-mode-button svg {
@@ -84,10 +111,37 @@
 			margin: 25px 0px 25px 0px;
 		}
 
-		.ap-project-information td {
-			padding: 5px 20px 5px 0px;
+		/* Slogany vpravo – cez obrázok medzi „kopcami“ */
+		.ap-slogans {
+			margin-top: 40px;
+			font-size: 22px;
+			font-weight: bold;
+			color: #ffe680;
+			text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+			display: flex;
+			flex-direction: column;
+			gap: 4px;
+			align-items: center;
 		}
 
+		.ap-slogans span {
+			letter-spacing: 0.04em;
+		}
+
+		.ap-project-information td {
+			padding: 5px 20px 5px 0px;
+			text-align: left;
+		}
+
+		/* Špeciálny štýl pre URL Home page – žltý text s jemným tieňom */
+		.ap-homepage-link:link,
+		.ap-homepage-link:visited,
+		.ap-homepage-link:active,
+		.ap-homepage-link:hover {
+			color: #ffe680;
+			text-decoration: none;
+			text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+		}
 		a:link {color:#4d4d4d; text-decoration:none;}
 		a:visited {color:#4d4d4d; text-decoration:none}
 		a:active {color:#4d4d4d; text-decoration:none}
@@ -192,7 +246,7 @@
 			<button id="ap-mode-tutorial" class="ap-mode-button" onclick="openPrez('tutorial.html')">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
 				<style type="text/css">
-					.st0{fill:#FFFFFF;}
+					.st0{fill:#ff0101;}
 					.st1{fill:#29ABE2;}
 				</style>
 				<path class="st0" d="M40,50H10C4.48,50,0,45.52,0,40l0-30C0,4.48,4.48,0,10,0l30,0c5.52,0,10,4.48,10,10v30C50,45.52,45.52,50,40,50z"/>
@@ -236,11 +290,24 @@
 
 	<div class="ap-project-information-container">
 		<div class="ap-project-information">
-			<h1>The Role of Chief Knowledge Officers (CKOs</h1>
+			<div class="ap-top-block">
+				<h1>The Role of Chief Knowledge Officers (CKOs)</h1>
+
+				<div class="ap-slogans">
+					<span>Radosť</span>
+					<span>Úspech</span>
+					<span>Spolupráca</span>
+					<span>Dôvera</span>
+					<span>Porozumenie</span>
+					<span>Komunikácia</span>
+				</div>
+			</div>
+
+			<div class="ap-bottom-block">
 			<table>
 				<tr>
 					<td id="ap-label-description">Description</td>
-					<td></td>
+						<td>Strategy for implementing CKO</td>
 				</tr>
 				<tr>
 					<td id="ap-label-author">Author</td>
@@ -248,13 +315,14 @@
 				</tr>
 				<tr>
 					<td id="ap-label-copyright">Copyright</td>
-					<td></td>
+						<td>© 2025 Roman Kazicka</td>
 				</tr>
 				<tr>
 					<td id="ap-label-homepage">Homepage</td>
-					<td><a href="" target="_blank"></a></td>
+						<td><a href="https://kmea.systemthinking.sk" target="_blank" class="ap-homepage-link">https://kmea.systemthinking.sk</a></td>
 				</tr>
 			</table>
+			</div>
 		</div>
 	</div>
 

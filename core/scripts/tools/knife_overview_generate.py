@@ -44,7 +44,13 @@ def rel_link_from_overview(item_dir_path: str, docs_root: str, overview_out_dir:
     """
     target = Path(docs_root) / item_dir_path.lstrip('/') / 'index.md'
     rel = Path(os.path.relpath(target, Path(overview_out_dir)))
-    return rel.as_posix()
+    rel_str = rel.as_posix()
+    # Docusaurus routuje na slug (bez index.md a .md), inak vzniká 404
+    if rel_str.endswith('/index.md'):
+        rel_str = rel_str[: -len('/index.md')]
+    elif rel_str.endswith('.md'):
+        rel_str = rel_str[: -len('.md')]
+    return rel_str
 
 def read_text(p: str) -> str:
     with open(p, 'r', encoding='utf-8') as f:
@@ -318,6 +324,7 @@ def build_nav(current: str, locale: str) -> str:
     `current` is one of: 'blog' | 'list' | 'details'
     """
     items = [
+        # Docusaurus broken-link checker očakáva explicitné .md v rámci docs
         ("blog",    "[📰 Blog](./KNIFE_Overview_Blog.md)"),
         ("list",    "[🗂 List](./KNIFE_Overview_List.md)"),
         ("details", "[📊 Details](./KNIFE_Overview_Details.md)"),
@@ -325,7 +332,7 @@ def build_nav(current: str, locale: str) -> str:
     parts = []
     for key, link in items:
         parts.append(f"**{link}**" if key == current else link)
-    parts.append("[↩️ KNIFES](../index.md)")
+    parts.append("[↩️ KNIFES](../)")
     return " | ".join(parts) + "\n\n"
 
 # ---------- main ----------
@@ -466,7 +473,7 @@ def main():
         # final text (ensure content_md is a string)
         final_text = body + "\n" + (content_md or "")
         # Normalize any legacy breadcrumb pointing to ../knifes/index.md to ../index.md
-        final_text = final_text.replace('](../knifes/index.md)', '](../index.md)')
+        final_text = final_text.replace('](../knifes/index.md)', '](../)')
         final_text = apply_placeholders(final_text, ctx)
 
         if preview_mode:

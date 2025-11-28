@@ -137,30 +137,30 @@ fm_reserved2: ""
 # CKO - Chief Knowledge Officer  - Overview 
 
 ## 🎯 Čo rieši (účel, cieľ)
-<iframe
-  src="/assets/topics/002-CKO-01-Onboarding/HTML5/index.html"
-  width="100%"
-  height="800"
-  loading="lazy"
-  title="ActivePresenter – CKO - Onboarding"
-/>
+<div class="knife-embed">
+  <iframe
+    src="/assets/topics/002-CKO-01-Onboarding/HTML5/index.html"
+    loading="lazy"
+    title="ActivePresenter – CKO - Onboarding"
+  />
+</div>
 
 ## 🧩 Ako to rieši (princíp)
-<iframe
-  src="/assets/topics/004-CKO-02-Role/HTML5/index.html"
-  width="100%"
-  height="800"
-  loading="lazy"
-  title="ActivePresenter – CKO - Role"
-/>
+<div class="knife-embed">
+  <iframe
+    src="/assets/topics/004-CKO-02-Role/HTML5/index.html"
+    loading="lazy"
+    title="ActivePresenter – CKO - Role"
+  />
+</div>
 ## 🧪 Ako to použiť (aplikácia)
-<iframe
-  src="/assets/topics/003-CKO-03-Impact/HTML5/index.html"
-  width="100%"
-  height="800"
-  loading="lazy"
-  title="ActivePresenter – CKO - Impact"
-/>
+<div class="knife-embed">
+  <iframe
+    src="/assets/topics/003-CKO-03-Impact/HTML5/index.html"
+    loading="lazy"
+    title="ActivePresenter – CKO - Impact"
+  />
+</div>
 ---
 
 ## ⚡ Rýchly návod (Top)
@@ -173,13 +173,13 @@ fm_reserved2: ""
 
 
 
-<iframe
-  src="/assets/topics/001-GH-StudentsOnboarding/HTML5/index.html"
-  width="100%"
-  height="800"
-  loading="lazy"
-  title="ActivePresenter – HTML5 návod"
-/>
+<div class="knife-embed">
+  <iframe
+    src="/assets/topics/001-GH-StudentsOnboarding/HTML5/index.html"
+    loading="lazy"
+    title="ActivePresenter – HTML5 návod"
+  />
+</div>
 
 <!-- nav:knifes -->
 > [⬅ KNIFES – Prehľad](../knifes_overview/KNIFE_Overview_Blog.md) • [Zoznam](../knifes_overview/KNIFE_Overview_List.md) • [Detaily](../knifes_overview/KNIFE_Overview_Details.md)
