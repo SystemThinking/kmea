@@ -3220,6 +3220,57 @@ html[data-theme='dark'] {
 html[data-theme='dark'] {
   --ifm-background-color: #ffa20044 !important;
 }
+/* Širší sidebar len pre desktop (šírka okna ≥ 997px) */
+@media (min-width: 997px) {
+  :root {
+    /* Default sidebar šírka je cca 300px; tu ju zväčšíme na 320px–420px podľa potreby */
+    --doc-sidebar-width: 360px;
+  }
+
+  /* Voliteľné: maximálna šírka hlavného obsahu, aby to nebolo „od kraja po kraj“ */
+  .docMainContainer {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+/* Responsive embeds for KNIFE iframes */
+.knife-embed {
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto 2rem;
+  aspect-ratio: 16 / 9;
+}
+.knife-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media (max-width: 996px) {
+  .knife-embed {
+    max-width: 100%;
+    margin: 0 auto 1.5rem;
+  }
+}
+
+/* Explicitne nastav šírku sidebaru pre desktop na theme-doc-sidebar-container */
+@media (min-width: 997px) {
+  .theme-doc-sidebar-container {
+    /* použijeme rovnakú šírku ako v premennej, ale natvrdo a s !important,
+       aby sme prebijali modulové štýly témy */
+    --doc-sidebar-width: 520px;
+
+    width: var(--doc-sidebar-width) !important;
+    min-width: var(--doc-sidebar-width) !important;
+    max-width: var(--doc-sidebar-width) !important;
+    flex: 0 0 var(--doc-sidebar-width) !important;
+  }
+}
+
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *

@@ -113,7 +113,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-sk-knifes-k-000101-cko-onboarding-index-md-5fa.json
-const site_docs_sk_knifes_k_000101_cko_onboarding_index_md_5fa_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"sk/knifes/K000101–CKO-Onboarding/K000101","title":"K000101 – CKO-Onboarding ","description":"{{DESCRIPTION}}","source":"@site/docs/sk/knifes/K000101–CKO-Onboarding/index.md","sourceDirName":"sk/knifes/K000101–CKO-Onboarding","slug":"/sk/knifes/K000101–CKO-Onboarding/","permalink":"/en/sk/knifes/K000101–CKO-Onboarding/","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"fm_version":"1.0.1","fm_build":"2025-11-26T20:48:34.141709+00:00","fm_version_comment":"","id":"K000101","guid":"02966c45-2145-4907-8ef6-2f149bb9d022","dao":"knife","title":"K000101 – CKO-Onboarding ","description":"{{DESCRIPTION}}","author":"Roman Kazicka","authors":["Roman Kazicka"],"category":"","type":"","priority":"","tags":[],"locale":"sk","created":"2025-11-26 21:48","modified":"2025-11-26 21:48","status":"backlog","privacy":"public","rights_holder_content":"Roman Kazicka","rights_holder_system":"CAA / KNIFE / LetItGrow","license":"CC-BY-NC-SA-4.0","disclaimer":"Use at your own risk. Methods provided as-is; participation is voluntary and context-aware.","copyright":"© 2025 Roman Kazicka","origin_repo":"","origin_repo_url":"","origin_commit":"","origin_branch":"","origin_system":"CAA","origin_author":"Roman Kazicka","origin_imported_from":"","origin_import_date":"","fm_reserved1":"","fm_reserved2":""},"sidebar":"tutorialSidebar","previous":{"title":"K000100 – titul-Ako komunikovať s porozumením","permalink":"/en/sk/knifes/K000100-Ako-komunikova-s-porozumen-mE/"},"next":{"title":"📰 KNIFE Overview – Blog","permalink":"/en/sk/knifes/knifes_overview/KNIFE_OVERVIEW_BLOG"}}');
+const site_docs_sk_knifes_k_000101_cko_onboarding_index_md_5fa_namespaceObject = /*#__PURE__*/JSON.parse('{"id":"sk/knifes/K000101–CKO-Onboarding/K000101","title":"K000101 – CKO-Onboarding ","description":"{{DESCRIPTION}}","source":"@site/docs/sk/knifes/K000101–CKO-Onboarding/index.md","sourceDirName":"sk/knifes/K000101–CKO-Onboarding","slug":"/sk/knifes/K000101–CKO-Onboarding/","permalink":"/sk/knifes/K000101–CKO-Onboarding/","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"fm_version":"1.0.1","fm_build":"2025-11-26T20:48:34.141709+00:00","fm_version_comment":"","id":"K000101","guid":"02966c45-2145-4907-8ef6-2f149bb9d022","dao":"knife","title":"K000101 – CKO-Onboarding ","description":"{{DESCRIPTION}}","author":"Roman Kazicka","authors":["Roman Kazicka"],"category":"","type":"","priority":"","tags":[],"locale":"sk","created":"2025-11-26 21:48","modified":"2025-11-26 21:48","status":"backlog","privacy":"public","rights_holder_content":"Roman Kazicka","rights_holder_system":"CAA / KNIFE / LetItGrow","license":"CC-BY-NC-SA-4.0","disclaimer":"Use at your own risk. Methods provided as-is; participation is voluntary and context-aware.","copyright":"© 2025 Roman Kazicka","origin_repo":"","origin_repo_url":"","origin_commit":"","origin_branch":"","origin_system":"CAA","origin_author":"Roman Kazicka","origin_imported_from":"","origin_import_date":"","fm_reserved1":"","fm_reserved2":""},"sidebar":"tutorialSidebar","previous":{"title":"K000100 – titul-Ako komunikovať s porozumením","permalink":"/sk/knifes/K000100-Ako-komunikova-s-porozumen-mE/"},"next":{"title":"📰 KNIFE Overview – Blog","permalink":"/sk/knifes/knifes_overview/KNIFE_OVERVIEW_BLOG"}}');
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(74848);
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
@@ -211,13 +211,13 @@ function _createMdxContent(props) {
     children: [(0,jsx_runtime.jsxs)(_components.blockquote, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
         children: [(0,jsx_runtime.jsx)(_components.a, {
-          href: "/en/sk/knifes/knifes_overview/KNIFE_OVERVIEW_BLOG",
+          href: "/sk/knifes/knifes_overview/KNIFE_OVERVIEW_BLOG",
           children: "⬅ KNIFES – Prehľad"
         }), " • ", (0,jsx_runtime.jsx)(_components.a, {
-          href: "/en/sk/knifes/knifes_overview/KNIFE_OVERVIEW_LIST",
+          href: "/sk/knifes/knifes_overview/KNIFE_OVERVIEW_LIST",
           children: "Zoznam"
         }), " • ", (0,jsx_runtime.jsx)(_components.a, {
-          href: "/en/sk/knifes/knifes_overview/KNIFE_OVERVIEW_DETAILS",
+          href: "/sk/knifes/knifes_overview/KNIFE_OVERVIEW_DETAILS",
           children: "Detaily"
         })]
       }), "\n"]
@@ -227,30 +227,33 @@ function _createMdxContent(props) {
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
       id: "-čo-rieši-účel-cieľ",
       children: "🎯 Čo rieši (účel, cieľ)"
-    }), "\n", (0,jsx_runtime.jsx)("iframe", {
-      src: "/assets/topics/002-CKO-01-Onboarding/HTML5/index.html",
-      width: "100%",
-      height: "800",
-      loading: "lazy",
-      title: "ActivePresenter – CKO - Onboarding"
+    }), "\n", (0,jsx_runtime.jsx)("div", {
+      class: "knife-embed",
+      children: (0,jsx_runtime.jsx)("iframe", {
+        src: "/assets/topics/002-CKO-01-Onboarding/HTML5/index.html",
+        loading: "lazy",
+        title: "ActivePresenter – CKO - Onboarding"
+      })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
       id: "-ako-to-rieši-princíp",
       children: "🧩 Ako to rieši (princíp)"
-    }), "\n", (0,jsx_runtime.jsx)("iframe", {
-      src: "/assets/topics/004-CKO-02-Role/HTML5/index.html",
-      width: "100%",
-      height: "800",
-      loading: "lazy",
-      title: "ActivePresenter – CKO - Role"
+    }), "\n", (0,jsx_runtime.jsx)("div", {
+      class: "knife-embed",
+      children: (0,jsx_runtime.jsx)("iframe", {
+        src: "/assets/topics/004-CKO-02-Role/HTML5/index.html",
+        loading: "lazy",
+        title: "ActivePresenter – CKO - Role"
+      })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
       id: "-ako-to-použiť-aplikácia",
       children: "🧪 Ako to použiť (aplikácia)"
-    }), "\n", (0,jsx_runtime.jsx)("iframe", {
-      src: "/assets/topics/003-CKO-03-Impact/HTML5/index.html",
-      width: "100%",
-      height: "800",
-      loading: "lazy",
-      title: "ActivePresenter – CKO - Impact"
+    }), "\n", (0,jsx_runtime.jsx)("div", {
+      class: "knife-embed",
+      children: (0,jsx_runtime.jsx)("iframe", {
+        src: "/assets/topics/003-CKO-03-Impact/HTML5/index.html",
+        loading: "lazy",
+        title: "ActivePresenter – CKO - Impact"
+      })
     }), "\n", (0,jsx_runtime.jsx)(_components.hr, {}), "\n", (0,jsx_runtime.jsx)(_components.h2, {
       id: "-rýchly-návod-top",
       children: "⚡ Rýchly návod (Top)"
@@ -263,22 +266,23 @@ function _createMdxContent(props) {
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
       id: "-hodnota--zhrnutie",
       children: "✅ Hodnota / Zhrnutie"
-    }), "\n", (0,jsx_runtime.jsx)("iframe", {
-      src: "/assets/topics/001-GH-StudentsOnboarding/HTML5/index.html",
-      width: "100%",
-      height: "800",
-      loading: "lazy",
-      title: "ActivePresenter – HTML5 návod"
+    }), "\n", (0,jsx_runtime.jsx)("div", {
+      class: "knife-embed",
+      children: (0,jsx_runtime.jsx)("iframe", {
+        src: "/assets/topics/001-GH-StudentsOnboarding/HTML5/index.html",
+        loading: "lazy",
+        title: "ActivePresenter – HTML5 návod"
+      })
     }), "\n", (0,jsx_runtime.jsxs)(_components.blockquote, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
         children: [(0,jsx_runtime.jsx)(_components.a, {
-          href: "/en/sk/knifes/knifes_overview/KNIFE_OVERVIEW_BLOG",
+          href: "/sk/knifes/knifes_overview/KNIFE_OVERVIEW_BLOG",
           children: "⬅ KNIFES – Prehľad"
         }), " • ", (0,jsx_runtime.jsx)(_components.a, {
-          href: "/en/sk/knifes/knifes_overview/KNIFE_OVERVIEW_LIST",
+          href: "/sk/knifes/knifes_overview/KNIFE_OVERVIEW_LIST",
           children: "Zoznam"
         }), " • ", (0,jsx_runtime.jsx)(_components.a, {
-          href: "/en/sk/knifes/knifes_overview/KNIFE_OVERVIEW_DETAILS",
+          href: "/sk/knifes/knifes_overview/KNIFE_OVERVIEW_DETAILS",
           children: "Detaily"
         })]
       }), "\n"]
