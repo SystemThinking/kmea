@@ -31,8 +31,7 @@ author_id: ""
 author_did: ""
 fm_reserved1: ""
 fm_reserved2: ""
-slug: /sk/
-sidebar_position: 1
+
 ---
 
 # KNIFE – Prehľad (SK)
@@ -47,4 +46,6 @@ Toto je hlavná stránka slovenskej dokumentácie.
 - 🧱 [SDLC – Framework](./sdlc/index.md)
 - 🎯 [Q12 – Framework](./q12/index.md)
 - 🏫 [STHDF – Framework](./sthdf/index.md)
+- 🏫 [STHDF – Dashboard](./class_sthdf_dashboard/index.md)
+- 🚑 [HELP](./help/index.md)
 - 🧭 [Späť na Hub](../index.md)
